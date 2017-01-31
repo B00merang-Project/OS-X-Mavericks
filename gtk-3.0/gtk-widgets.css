@@ -223,9 +223,6 @@ GtkAssistant .sidebar {
 }
 
 .button:hover {
-    border-color: shade(@theme_bg_color, 0.85);
-    background-color: shade(@theme_bg_color, 0.99);
-    background-image: linear-gradient(to bottom, @theme_base_color 30%, @theme_bg_color 85%);
 }
 
 .button:active {
@@ -415,10 +412,6 @@ column-header .button:hover,
 column-header .button:active:hover,
 column-header .button:hover:focus,
 column-header .button:active:hover:focus {
-    border-color: shade(@theme_base_color, 0.9);
-    border-bottom-color: shade(@theme_base_color, 0.9);
-    background-color: shade(@theme_base_color, 0.99);
-    background-image: none;
 }
 
 column-header:last-child .button {
@@ -709,11 +702,6 @@ GtkInfoBar {
 }
 
 .info .button:hover {
-    border-top-color: shade(@info_bg_color, 0.85);
-    border-right-color: shade(@info_bg_color, 0.78);
-    border-left-color: shade(@info_bg_color, 0.78);
-    border-bottom-color: shade(@info_bg_color, 0.7);
-    background-color: shade(@info_bg_color, 1.10);
 }
 
 .info .button:active {
@@ -760,11 +748,6 @@ GtkInfoBar {
 }
 
 .warning .button:hover {
-    border-top-color: shade(@warning_bg_color, 0.85);
-    border-right-color: shade(@warning_bg_color, 0.78);
-    border-left-color: shade(@warning_bg_color, 0.78);
-    border-bottom-color: shade(@warning_bg_color, 0.7);
-    background-color: shade(@warning_bg_color, 1.10);
 }
 
 .warning .button:active {
@@ -811,11 +794,6 @@ GtkInfoBar {
 }
 
 .question .button:hover {
-    border-top-color: shade(@question_bg_color, 0.85);
-    border-right-color: shade(@question_bg_color, 0.78);
-    border-left-color: shade(@question_bg_color, 0.78);
-    border-bottom-color: shade(@question_bg_color, 0.7);
-    background-color: shade(@question_bg_color, 1.10);
 }
 
 .question .button:active {
@@ -862,11 +840,6 @@ GtkInfoBar {
 }
 
 .error .button:hover {
-    border-top-color: shade(@error_bg_color, 0.85);
-    border-right-color: shade(@error_bg_color, 0.78);
-    border-left-color: shade(@error_bg_color, 0.78);
-    border-bottom-color: shade(@error_bg_color, 0.7);
-    background-color: shade(@error_bg_color, 1.10);
 }
 
 .error .button:active {
@@ -1397,8 +1370,6 @@ GtkModelButton.button:selected {
 }
 
 .notebook tab .button:hover {
-    color: @theme_text_color;
-    border-color: shade(@theme_base_color, 0.8);
 }
 
 .notebook tab .button:active,
@@ -1997,9 +1968,6 @@ GtkSidebarRow .sidebar-label:dir(rtl) {
 }
 
 .spinbutton.vertical .button:hover {
-    border-color: shade(@theme_bg_color, 0.7);
-    background-color: shade(@theme_bg_color, 1.10);
-    background-image: none;
 }
 
 .spinbutton.vertical .button:active {
@@ -2440,9 +2408,6 @@ GtkStatusbar .button:checked,
 }
 
 .header-bar .button:hover {
-    border-color: shade(@titlebar_bg_color, 0.7);
-    background-color: shade(@titlebar_bg_color, 0.85);
-    background-image: linear-gradient(to bottom, #fcfcfc, #d5d5d5 60%);
 }
 
 .header-bar .button:active {
@@ -2630,8 +2595,6 @@ GtkStatusbar .button:checked:backdrop,
 
 .primary-toolbar .button:hover,
 .toolbar .button:hover {
-    background-color: shade(@toolbar_bg_color, 0.5);
-    background-image: linear-gradient(to bottom, #fcfcfc, #d5d5d5 60%);
 }
 
 .primary-toolbar .button:active,
