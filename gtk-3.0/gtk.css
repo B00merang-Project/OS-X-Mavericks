@@ -9,6 +9,8 @@
 @define-color tooltip_fg_color #4c4c4c;
 @define-color unfocused_bg_color #ededed;
 @define-color unfocused_fg_color @theme_fg_color;
+@define-color sidebar_bg_color #e2e5ec;
+@define-color sidebar_fg_color @fg_color;
 
 /* dark color scheme */
 @define-color dark_bg_color #f0f0f0;
