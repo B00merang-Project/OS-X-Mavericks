@@ -9,7 +9,7 @@
 
 **License :** GPL v3
 
-**More info :** http://b00merang.weebly.com/macos-sierra.html
+**More info :** http://b00merang.weebly.com/os-x-mavericks.html
 
 ###Manual installation###
 
