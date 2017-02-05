@@ -1,7 +1,7 @@
 # OS X Mavericks (10.9)
 ###Theme reproducing the OS X gradients and colors found in the Mavericks release ###
 
-![OS-X-Mavericks](https://cloud.githubusercontent.com/assets/15310985/21437163/54021156-c850-11e6-9f12-de53bcfb98e8.png)
+![OS-X-Mavericks](http://b00merang.weebly.com/uploads/1/6/8/1/16813022/screenshot-2017-02-04-23-26-18_orig.png)
 
 **Maintainer :** [Elbullazul](https://github.com/Elbullazul)
 
