@@ -12,7 +12,7 @@
     -GtkButton-interior-focus: true;
     -GtkButtonBox-child-min-height: 24;
     -GtkButtonBox-child-internal-pad-y: 1;
-    -GtkCheckButton-indicator-size: 16;
+    -GtkCheckButton-indicator-size: 14;
     -GtkCheckMenuItem-indicator-size: 14;
     -GtkExpander-expander-size: 8;
     -GtkHTML-link-color: @link_color;
@@ -20,8 +20,8 @@
     -GtkMenu-horizontal-padding: 0;
     -GtkMenu-vertical-padding: 0;
     -GtkPaned-handle-size: 4;
-    -GtkProgressBar-min-horizontal-bar-height: 14;
-    -GtkProgressBar-min-vertical-bar-width: 14;
+    -GtkProgressBar-min-horizontal-bar-height: 16;
+    -GtkProgressBar-min-vertical-bar-width: 16;
     -GtkRange-slider-width: 12;
     -GtkRange-stepper-spacing: 0;
     -GtkRange-trough-border: 0;
@@ -1869,25 +1869,25 @@ GtkComboBox .separator {
 .sidebar .view row:selected:hover,
 .sidebar .view row:selected:focus {
     border-color: shade(@theme_bg_color, 0.85);
-    background-color: shade(@theme_bg_color, 0.85);
-    background-image: none;
-    color: @theme_fg_color;
+    background-color: shade(@theme_selected_bg_color, 0.85);
+    background-image: linear-gradient(to bottom, @theme_selected_bg_color, shade(@theme_selected_bg_color, 0.85));
+    color: @theme_selected_fg_color;
 }
 
 .sidebar row:prelight,
 .sidebar .view row:prelight {
     border-color: shade(@theme_bg_color, 0.95);
     background-color: shade(@theme_bg_color, 0.95);
-    background-image: none;
-    color: @theme_fg_color;
+    background-image: linear-gradient(to bottom, @theme_selected_bg_color, shade(@theme_selected_bg_color, 0.85));
+    color: @theme_selected_fg_color;
 }
 
 .sidebar row:selected:prelight,
 .sidebar .view row:selected:prelight {
     border-color: shade(@theme_bg_color, 0.8);
     background-color: shade(@theme_bg_color, 0.8);
-    background-image: none;
-    color: @theme_fg_color;
+    background-image: linear-gradient(to bottom, @theme_selected_bg_color, shade(@theme_selected_bg_color, 0.85));
+    color: @theme_selected_fg_color;
 }
 
 .sidebar .frame {
@@ -2350,7 +2350,10 @@ GtkColorButton.button {
 .header-bar .button { 
     border-width: 1px;
     padding: 1px 6px;
-    border-color: shade(@theme_bg_color, 0.7);
+    border-top-color: shade(@theme_bg_color, 0.85);
+    border-right-color: shade(@theme_bg_color, 0.75);
+    border-left-color: shade(@theme_bg_color, 0.75);
+    border-bottom-color: shade(@theme_bg_color, 0.65);
     background-image: linear-gradient(to bottom, #f6f6f6 20%, #bdbdbd 75%);
     color: @titlebar_fg_color;
     box-shadow: none;
@@ -2392,13 +2395,13 @@ GtkStatusbar .button:checked,
 }
 
 .header-bar .button:insensitive {
-    border-color: shade(@titlebar_bg_color, 0.95);
+    border-color: shade(@titlebar_bg_color, 0.7);
     background-color: shade(@titlebar_bg_color, 0.9);
     background-image: none;
 }
 
 .header-bar .button:active *:insensitive {
-    border-color: shade(@titlebar_bg_color, 0.9);
+    border-color: shade(@titlebar_bg_color, 0.7);
     background-color: shade(@titlebar_bg_color, 0.80);
     background-image: none;
 }
@@ -2515,8 +2518,11 @@ GtkStatusbar .button:checked:backdrop,
 .primary-toolbar .button {
     padding: 0 6px;
     border-width: 1px;
-    border-color: shade(@theme_bg_color, 0.7);
     border-radius: 4px;
+    border-top-color: shade(@theme_bg_color, 0.85);
+    border-right-color: shade(@theme_bg_color, 0.75);
+    border-left-color: shade(@theme_bg_color, 0.75);
+    border-bottom-color: shade(@theme_bg_color, 0.65);
     background-image: linear-gradient(to bottom, #f6f6f6 20%, #bdbdbd 75%);
     background-color: shade(@theme_base_color, 0.95);
     color: @toolbar_fg_color;
@@ -2528,7 +2534,10 @@ GtkStatusbar .button:checked:backdrop,
 .toolbar .button {
     padding: 0 6px;
     border-width: 1px;
-    border-color: shade(@theme_bg_color, 0.7);
+    border-top-color: shade(@theme_bg_color, 0.85);
+    border-right-color: shade(@theme_bg_color, 0.75);
+    border-left-color: shade(@theme_bg_color, 0.75);
+    border-bottom-color: shade(@theme_bg_color, 0.65);
     background-image: linear-gradient(to bottom, #f6f6f6 20%, #bdbdbd 75%);
     color: @toolbar_fg_color;
 }

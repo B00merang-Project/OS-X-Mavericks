@@ -36,8 +36,8 @@ style "murrine-default" {
 
 	GtkPaned::handle-size = 1
 
-	GtkProgressBar::min-horizontal-bar-height = 4
-	GtkProgressBar::min-vertical-bar-width = 4
+	GtkProgressBar::min-horizontal-bar-height = 16
+	GtkProgressBar::min-vertical-bar-width = 16
 
 	GtkRange::trough-border = 0
 	GtkRange::slider-width = 12

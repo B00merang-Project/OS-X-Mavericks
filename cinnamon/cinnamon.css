@@ -429,6 +429,7 @@ spacing: 0px;
 
 .expo-background {
     background-image: url('expo-scale-assets/linen.jpg');
+    background-size: cover;
 }
 
 .expo-workspace-thumbnail-frame,
@@ -484,20 +485,19 @@ spacing: 0px;
 .expo-workspaces-name-entry {
     /* border-image: url("expo-scale-assets/workspace-name.svg") 6; */
     border-radius: 4px;
-    font-weight: bold;
-    height: 15px;
+    font-weight: normal;
+    font-size: 13pt;
+    height: 18px;
     padding: 10px 12px;
     text-align: center;
-    font-weight: normal;
     color: #fff;
 }
 
 .expo-workspaces-name-entry#selected {
     /* border-image: url("expo-scale-assets/workspace-name-focused.svg") 6; */
-    height: 15px;
+    height: 18px;
     padding: 10px 12px;
     text-align: center;
-    font-weight: normal;
     color: #fff;
 }
 
@@ -539,8 +539,8 @@ spacing: 0px;
 .window-caption {
     /* border-image: url("expo-scale-assets/window-name.svg") 6; */
     color: #fff;
-    font-size: 9pt;
-    font-weight: bold;
+    font-size: 11pt;
+    font-weight: normal;
     padding: 6px 8px;
     -cinnamon-caption-spacing: 10px;
 }
@@ -748,7 +748,10 @@ spacing: 0px;
 
 #notification {
     font-size: 10pt;
-    border-image: url("background-assets/notification.svg") 7;
+    /* border-image: url("background-assets/notification.svg") 7; */
+    background-gradient-direction: vertical;
+    background-gradient-start: rgba(252,252,252,0.9);
+    background-gradient-end: rgba(244,244,244,0.9);
     padding: 8px 8px 8px 8px;
     spacing-rows: 10px;
     spacing-columns: 10px;
@@ -756,12 +759,14 @@ spacing: 0px;
     opacity: 255px;
     mouseover-opacity: 255px;
     width: 34em;
-    color: #ffffff;
+    color: #000;
+    border-radius: 4px;
+    border: 1px solid #8c8c8c;
 }
 
 #notification.multi-line-notification {
     padding: 8px 8px 8px 8px;
-    color: #ffffff;
+    color: #000;
 }
 
 .notification-with-image {
@@ -793,8 +798,8 @@ spacing: 0px;
     border-radius: 0;
     height: 22px;
     width: 220px;
-    color: #fff;
-    caret-color: #fff;
+    color: #000;
+    caret-color: #000;
     font-size: 9pt;
     font-weight: normal;
     caret-size: 1px;
