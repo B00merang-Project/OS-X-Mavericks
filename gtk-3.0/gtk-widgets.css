@@ -981,7 +981,6 @@ GtkComboBox .menu {
 .header-bar .primary-toolbar .menu,
 .menu {
     background: transparent;
-    background-color: alpha(@menu_bg_color, 0.8);
     padding: 0;
     border-radius: 0;
     border-style: none;
@@ -990,7 +989,7 @@ GtkComboBox .menu {
 
 /* make menu transluscent */
 .csd .popup {
-    background: transparent;
+    background-color: alpha(@menu_bg_color, 0.8);
 }
 
 .background.csd .menu,
@@ -1505,14 +1504,16 @@ GtkProgressBar {
     border-style: solid;
     border-color: transparent;
     background-color: @theme_selected_bg_color;
-    background-image: linear-gradient(to right, transparent, alpha(black, 0.05), transparent), 
-                      linear-gradient(to bottom, shade(@theme_selected_bg_color, 1.8) 40%, shade(@theme_selected_bg_color, 1.6) 60%, shade(@theme_selected_bg_color, 2.1) 80%);
-    background-size: 16px 16px, auto;
+    background-image: linear-gradient(to right top, transparent 33%, alpha(blue, 0.045), transparent 66%), 
+                      linear-gradient(to bottom, #accbf3, #83cbf8 50%, #56c0f8 51%, #addef6);
+    background-size: 20px 16px, auto;
 }
 
 .progressbar.vertical {
-    background-image: linear-gradient(to top, transparent, alpha(black, 0.05), transparent), 
-                      linear-gradient(to right, shade(@theme_selected_bg_color, 1.8) 40%, shade(@theme_selected_bg_color, 1.6) 60%, shade(@theme_selected_bg_color, 2.1) 80%);
+    background-color: @theme_selected_bg_color;
+    background-image: linear-gradient(to left top, transparent 33%, alpha(blue, 0.045), transparent 66%), 
+                      linear-gradient(to right, #accbf3, #83cbf8 50%, #56c0f8 51%, #addef6);
+    background-size: 16px 20px, auto;
 }
 
 .trough,
@@ -1525,11 +1526,11 @@ GtkProgressBar {
     border-radius: 4px;
     border-color: shade(@theme_bg_color, 0.68);
     background-color: shade(@theme_bg_color, 0.8);
-    background-image: linear-gradient(to bottom, shade(@theme_bg_color, 0.9) 15%, @theme_bg_color);
+    background-image: linear-gradient(to bottom, shade(@theme_bg_color, 0.9) 15%, shade(@theme_bg_color, 0.95));
 }
 
 .trough.vertical {
-    background-image: linear-gradient(to right, shade(@theme_bg_color, 0.9) 15%, @theme_bg_color);
+    background-image: linear-gradient(to right, shade(@theme_bg_color, 0.9) 15%, shade(@theme_bg_color, 0.95));
 }
 
 /* level bars as used for password quality or remaining power */
@@ -2519,6 +2520,7 @@ GtkStatusbar .button:checked:backdrop,
     padding: 0 6px;
     border-width: 1px;
     border-radius: 4px;
+    box-shadow: none;
     border-top-color: shade(@theme_bg_color, 0.85);
     border-right-color: shade(@theme_bg_color, 0.75);
     border-left-color: shade(@theme_bg_color, 0.75);
