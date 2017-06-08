@@ -1,7 +1,7 @@
 # OS X Mavericks (10.9)
-###Theme reproducing the OS X gradients and colors found in the Mavericks release ###
+Theme reproducing the OS X gradients and colors found in the Mavericks release
 
-![OS-X-Mavericks](http://b00merang.weebly.com/uploads/1/6/8/1/16813022/screenshot-2017-02-04-23-26-18_orig.png)
+![OS-X-Mavericks](http://b00merang.weebly.com/uploads/1/6/8/1/16813022/screenshot-2017-02-04-23-26-26_1_orig.png)
 
 **Maintainer :** [Elbullazul](https://github.com/Elbullazul)
 
@@ -11,7 +11,7 @@
 
 **More info :** http://b00merang.weebly.com/os-x-mavericks.html
 
-###Manual installation###
+### Manual installation ###
 
 Extract the zip file to the themes directory i.e. `/home/USERNAME/.themes`
 
