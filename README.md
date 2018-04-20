@@ -1,7 +1,7 @@
 # OS X Mavericks (10.9)
 Theme reproducing the OS X gradients and colors found in the Mavericks release
 
-![OS-X-Mavericks](http://b00merang.weebly.com/uploads/1/6/8/1/16813022/screenshot-2017-02-04-23-26-26_1_orig.png)
+![OS-X-Mavericks](https://b00merang.weebly.com/uploads/1/6/8/1/16813022/os-x-mavericks-1_orig.png)
 
 **Maintainer :** [Elbullazul](https://github.com/Elbullazul)
 
@@ -30,7 +30,7 @@ xfconf-query -c xsettings -p /Net/ThemeName -s "OS X Mavericks"
 
 ### Requirements ###
 
-- GTK+ 3.6 or above
+- GTK+ 3.16 or above
 - Murrine and Pixmap theme engines
 
 ### Contribute ###
