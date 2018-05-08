@@ -1618,6 +1618,7 @@ progressbar progress {
 
 progressbar.vertical progress {
     min-width: 16px;
+    min-height: 0;
     background-color: @theme_selected_bg_color;
     background-image: linear-gradient(to top, transparent 20%, alpha(blue, 0.03), transparent 80%), 
                       linear-gradient(to right, #accbf3, #83cbf8 50%, #56c0f8 51%, #addef6);
