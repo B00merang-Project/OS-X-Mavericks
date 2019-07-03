@@ -1,4 +1,7 @@
-# OS X Mavericks (10.9)
+[![built-with-azurra-framework](https://github.com/Elbullazul/Azurra_framework/raw/assets/azurra_framework_smaller.png)](https://github.com/Elbullazul/Azurra_framework)
+
+# OS X 10.9 'Mavericks'
+
 Theme reproducing the OS X gradients and colors found in the Mavericks release
 
 ![OS-X-Mavericks](https://github.com/B00merang-Project/gallery/raw/master/OS%20X%2010.9%20Mavericks%20(4).png)
