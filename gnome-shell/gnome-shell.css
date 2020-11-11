@@ -1974,16 +1974,16 @@ StScrollBar {
 .modal-dialog-linked-button {
 	border-radius: 0;
 	border: none;
-	background-color: transparent;
+	background-color: red;
 	margin-top: 0.5em;
 	padding: 4px 36px;
 	color: #1c7aec;
 	font-weight: normal;
 	box-shadow: none;
 	icon-shadow: none;
-    height: 30px;
-    margin: 2px;
-    font-size: 13pt;
+  height: 30px;
+  margin: 0;
+  font-size: 12pt;
 }
 
 .modal-dialog-button:focus,
