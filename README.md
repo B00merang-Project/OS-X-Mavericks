@@ -1,28 +1,16 @@
 [![built-with-azurra-framework](https://github.com/Elbullazul/Azurra_framework/raw/assets/azurra_framework_smaller.png)](https://github.com/Elbullazul/Azurra_framework)
 
-# OS X 10.9 'Mavericks'
-
+# OS X Mavericks
 Theme reproducing the OS X gradients and colors found in the Mavericks release
 
+### Preview
 ![OS-X-Mavericks](https://github.com/B00merang-Project/gallery/raw/master/OS%20X%2010.9%20Mavericks%20(4).png)
 
-**Maintainer :** [Elbullazul](https://github.com/Elbullazul)
 
-**Distributor :** [B00merang Project](https://github.com/B00merang-Project)
-
-**License :** GPL v3
-
-**More info :** http://b00merang.weebly.com/os-x-mavericks.html
+### Supported platforms
+- Any GTK-based desktop
+- Cinnamon
+- Gnome
 
 ### Manual installation
-
-Extract the zip file to the themes directory i.e. `/home/USERNAME/.themes`
-
-### Requirements
-
-- GTK+ 3.20 or above
-- Murrine and Pixmap theme engines
-
-### Contribute
-
-Contact us @ http://b00merang.weebly.com/contact.html
+Go to releases, download the latest `.zip` file and extract it to the themes directory i.e. `/home/USERNAME/.themes`
