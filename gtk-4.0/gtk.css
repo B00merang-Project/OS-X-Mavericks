@@ -1586,29 +1586,27 @@ progressbar {
   progressbar > trough {
     border-radius: 2px;
     border: 1px solid silver;
-    background-color: #bebebe;
-    background-image: linear-gradient(to bottom, #d5d5d5, #e1e1e1 33%, #e8e8e8); }
+    background-color: #bebebe; }
     progressbar > trough:backdrop {
       background-color: #e1e1e1; }
   progressbar > trough > progress {
+    border-radius: 2px;
     border: none;
-    border-radius: 0;
-    background-color: #2563AE;
-    background-image: radial-gradient(45% 50% at center, rgba(37, 99, 174, 0.1), transparent), linear-gradient(to bottom, #abcaf2, #83cbf8 50%, #52bff7 51%, #addef6);
-    background-size: 32px 16px, auto;
-    box-shadow: inset 0 1px rgba(255, 255, 255, 0.4), inset 0 -1px rgba(255, 255, 255, 0.2); }
+    background-color: #2563AE; }
     progressbar > trough > progress:backdrop {
       background-color: #a6a6a6; }
   progressbar.vertical > trough {
     background-image: linear-gradient(to right, #d5d5d5, #e1e1e1 33%, #e8e8e8); }
-    progressbar.vertical > trough:backdrop {
-      background-color: #e1e1e1; }
   progressbar.vertical > trough > progress {
     background-image: radial-gradient(45% 50% at center, rgba(37, 99, 174, 0.1), transparent), linear-gradient(to right, #abcaf2, #83cbf8 50%, #52bff7 51%, #addef6);
     background-size: 16px 32px, auto;
     box-shadow: inset 1px 0 rgba(255, 255, 255, 0.4), inset -1px 0 rgba(255, 255, 255, 0.2); }
-    progressbar.vertical > trough > progress:backdrop {
-      background-color: #a6a6a6; }
+  progressbar.horizontal > trough {
+    background-image: linear-gradient(to bottom, #d5d5d5, #e1e1e1 33%, #e8e8e8); }
+  progressbar.horizontal > trough > progress {
+    background-image: radial-gradient(45% 50% at center, rgba(37, 99, 174, 0.1), transparent), linear-gradient(to bottom, #abcaf2, #83cbf8 50%, #52bff7 51%, #addef6);
+    background-size: 32px 16px, auto;
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.4), inset 0 -1px rgba(255, 255, 255, 0.2); }
   progressbar.horizontal > trough {
     min-width: 150px; }
   progressbar.vertical > trough {
